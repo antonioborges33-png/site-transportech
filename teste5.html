@@ -1,0 +1,220 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>TransporTech</title> 
+
+    <style> 
+        html { scroll-behavior: smooth; } 
+        body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f5f5f5; } 
+        header { background: #1a1a1a; color: white; padding: 20px; text-align: center; } 
+        nav { background: #333; display: flex; justify-content: center; } 
+        nav a { color: white; padding: 15px 20px; text-decoration: none; font-weight: bold; } 
+        nav a:hover { background: #555; } 
+        .hero { 
+            background: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover; 
+            height: 350px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            color: white; 
+            text-shadow: 2px 2px 4px #000; 
+            font-size: 32px; 
+            text-align: center; 
+            padding: 20px; 
+        } 
+        .section { padding: 40px; max-width: 1100px; margin: auto; } 
+        .cards { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; } 
+        .card { 
+            background: white; width: 300px; padding: 20px; border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); text-align: center; 
+        } 
+        footer { background: #1a1a1a; color: white; text-align: center; padding: 20px; margin-top: 40px; } 
+        .botao { background: #007bff; color: white; padding: 10px 18px; border-radius: 5px; text-decoration: none; font-weight: bold; } 
+        .botao:hover { background: #0056b3; } 
+
+        /* ⭐ Avaliações ⭐ */ 
+        .review { 
+            background: white; padding: 20px; border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); margin-bottom: 25px; 
+        } 
+        .stars { font-size: 22px; color: gold; margin-bottom: 10px; } 
+        .review-author { font-weight: bold; margin-top: 10px; } 
+    </style> 
+</head> 
+
+<body> 
+
+<header> 
+    <h1>TransporTech</h1> 
+    <p>Transporte seguro e rápido de componentes de hardware</p> 
+</header> 
+
+<nav> 
+    <a href="#sobre">Sobre</a> 
+    <a href="#servicos">Serviços</a> 
+    <a href="#avaliacoes">Avaliações</a> 
+    <a href="#comentarios">Comentários</a>
+    <a href="#rastreamento">Rastreamento</a> 
+    <a href="#contato">Contato</a> 
+</nav> 
+
+<div class="hero"> 
+    Soluções de transporte especializadas para a indústria de tecnologia 
+</div> 
+
+<!-- SOBRE --> 
+<section class="section" id="sobre"> 
+    <h2>Sobre Nós</h2> 
+    <p> 
+        A TransporTech é especializada no transporte de componentes de hardware sensíveis, como placas-mãe, processadores, GPUs, servidores e eletrônicos de alta precisão. Trabalhamos com segurança, rapidez e rastreamento em tempo real. 
+    </p> 
+</section> 
+
+<!-- SERVIÇOS --> 
+<section class="section" id="servicos"> 
+    <h2>Nossos Serviços</h2> 
+    <div class="cards"> 
+        <div class="card"> 
+            <h3>Transporte de Hardware</h3> 
+            <p>Entrega segura com embalagem antiestática e veículos climatizados.</p> 
+        </div> 
+        <div class="card"> 
+            <h3>Logística para Empresas Tech</h3> 
+            <p>Coletas programadas e integração com centros de distribuição.</p> 
+        </div> 
+        <div class="card"> 
+            <h3>Rastreamento 24/7</h3> 
+            <p>Acompanhe sua carga em tempo real via GPS e app.</p> 
+        </div> 
+        <div class="card"> 
+            <h3>Atendimento por Chamadas</h3> 
+            <p>Suporte imediato via central telefônica.</p> 
+            <p><strong>Telefone:</strong> (88) 99271-7904</p> 
+        </div> 
+    </div> 
+</section> 
+
+<!-- ⭐ AVALIAÇÕES DOS CLIENTES ⭐ --> 
+<section class="section" id="avaliacoes"> 
+    <h2>Avaliações dos Clientes</h2> 
+
+    <div class="review"> 
+        <div class="stars">★★★★★</div> 
+        <p>"Excelente serviço! Minha GPU chegou muito bem embalada e no prazo correto."</p> 
+        <p class="review-author">— Carlos Mendes</p> 
+    </div> 
+
+    <div class="review"> 
+        <div class="stars">★★★★★</div> 
+        <p>"O rastreamento em tempo real me deixou muito mais tranquilo. Super recomendo!"</p> 
+        <p class="review-author">— Fernanda Oliveira</p> 
+    </div> 
+
+    <div class="review"> 
+        <div class="stars">★★★★☆</div> 
+        <p>"Atendimento rápido e eficiente. Só achei que poderia ter mais opções de horários."</p> 
+        <p class="review-author">— João Ribeiro</p> 
+    </div> 
+
+    <div class="review"> 
+        <div class="stars">★★★★★</div> 
+        <p>"Entrega impecável! A embalagem antiestática fez toda a diferença. Nota 10!"</p> 
+        <p class="review-author">— Marina Souza</p> 
+    </div> 
+</section> 
+
+<!-- ⭐ COMENTÁRIOS DOS USUÁRIOS ⭐ --> 
+<section class="section" id="comentarios">
+    <h2>Deixe seu Comentário</h2>
+    <p>Compartilhe sua experiência com nossos serviços:</p>
+
+    <div style="background:white;padding:20px;border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,0.2);max-width:600px;margin:auto;">
+
+        <label><strong>Seu nome:</strong></label><br>
+        <input id="nomeComentario" type="text" placeholder="Digite seu nome" 
+               style="width:100%;padding:10px;margin-top:5px;margin-bottom:15px;border-radius:5px;border:1px solid #ccc;">
+
+        <label><strong>Seu comentário:</strong></label><br>
+        <textarea id="textoComentario" placeholder="Escreva sua experiência" 
+                  style="width:100%;padding:10px;height:120px;margin-top:5px;border-radius:5px;border:1px solid #ccc;"></textarea>
+
+        <button onclick="enviarComentario()" 
+                style="margin-top:15px;padding:10px 20px;background:#007bff;color:white;border:none;border-radius:5px;font-weight:bold;">
+            Enviar Comentário
+        </button>
+    </div>
+
+    <h3 style="margin-top:40px;">Comentários Recentes</h3>
+    <div id="listaComentarios" style="margin-top:20px;"></div>
+
+    <script>
+        function enviarComentario() {
+            const nome = document.getElementById('nomeComentario').value.trim();
+            const texto = document.getElementById('textoComentario').value.trim();
+            const lista = document.getElementById('listaComentarios');
+
+            if (!nome || !texto) {
+                alert("Preencha todos os campos antes de enviar.");
+                return;
+            }
+
+            const bloco = document.createElement("div");
+            bloco.style.background = "white";
+            bloco.style.padding = "15px";
+            bloco.style.marginBottom = "15px";
+            bloco.style.borderRadius = "8px";
+            bloco.style.boxShadow = "0 2px 5px rgba(0,0,0,0.2)";
+
+            bloco.innerHTML = `
+                <strong>${nome}</strong><br>
+                <p style="margin:5px 0;">${texto}</p>
+            `;
+
+            lista.prepend(bloco); 
+
+            document.getElementById('nomeComentario').value = "";
+            document.getElementById('textoComentario').value = "";
+        }
+    </script>
+</section>
+
+<!-- RASTREAMENTO --> 
+<section class="section" id="rastreamento"> 
+    <h2>Rastreamento</h2> 
+    <p>Digite o código da carga para rastrear:</p> 
+
+    <input id="codigo" type="text" placeholder="EX: TPT123456" style="padding:10px;width:250px;"> 
+    <button onclick="rastrear()" style="padding:10px 15px;">Rastrear</button> 
+
+    <p id="resultado" style="margin-top:20px;font-weight:bold;"></p> 
+
+    <script> 
+        function rastrear() { 
+            const codigo = document.getElementById('codigo').value.trim(); 
+            if (codigo === "") { 
+                document.getElementById('resultado').innerText = "Digite um código válido."; 
+            } else { 
+                document.getElementById('resultado').innerText = "Status: Em trânsito - Última atualização há 12 minutos."; 
+            } 
+        } 
+    </script> 
+</section> 
+
+<!-- CONTATO --> 
+<section class="section" id="contato"> 
+    <h2>Contato</h2> 
+    <p><strong>Email:</strong> trasnportechCE@gmail.com </p> 
+    <p><strong>Telefone Atendimento:</strong> (88) 99271-7904</p> 
+    <p><strong>Endereço:</strong> Avenida Beira Mar, 500 - Fortaleza/CE</p> 
+    <a class="botao" href="tel:+5588992717904">Ligar Agora</a> 
+</section> 
+
+<footer> 
+    © 2025 TransporTech • Todos os direitos reservados 
+</footer> 
+
+</body> 
+</html>
+
